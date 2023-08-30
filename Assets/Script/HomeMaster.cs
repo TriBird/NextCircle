@@ -21,7 +21,8 @@ public class HomeMaster : MonoBehaviour
     }
 
     public void StartMTG(){
-        SceneManager.LoadScene("VideoKaigi");
+        // SceneManager.LoadScene("VideoKaigi");
+        SceneManager.LoadScene("Matching");
     }
 
     public void GotoPortal(){
